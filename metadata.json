@@ -1,0 +1,6 @@
+{
+  "name": "Sistem Administrasi & Pembelajaran MPLB",
+  "description": "Sistem Digitalisasi Pembelajaran & Administrasi Perkantoran MPLB SMKS Ekonomika Depok: Database Siswa, Absensi, Monitoring PKL, Arsip Digital & Disposisi Surat, Inventarisasi, Perjalanan Dinas, dan Petty Cash.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

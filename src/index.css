@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --bg: #FAF8FD;
+    --surface: #FFFFFF;
+    --border: #E6DFF1;
+    --text: #2D2640;
+    --text-muted: #6B6480;
+    --text-disabled: #A69FB8;
+    --primary: #8650C4;
+    --primary-hover: #6D3FA6;
+    --primary-light: #F7F2FD;
+    --secondary: #EEE4FA;
+    --secondary-hover: #DEC9F5;
+    --secondary-text: #6D3FA6;
+    --accent: #2BB5A0;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--bg);
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Tabular numbers for all tables, metrics, IDs, amounts */
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom scrollbar for clean data tables and sidebars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8FD;
+}
+::-webkit-scrollbar-thumb {
+  background: #DEC9F5;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8650C4;
+}
